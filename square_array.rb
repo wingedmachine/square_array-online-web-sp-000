@@ -1,4 +1,5 @@
 def square_array(array)
-  array.each { |num| num = num*num}
-  
+  squares = []
+  array.each { |num| squares << num**2}
+  squares
 end
